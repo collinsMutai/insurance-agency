@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
-
+:root{
+  font-size: ;
+}
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
 }
 body {
   max-width: 1440px;
+  font-family: "Montserrat", sans-serif;
 }
 /* hero section */
 .container {
@@ -148,16 +151,114 @@ h1 {
 /* industry section */
 
 .industry-section {
-  display: flex;
-  justify-content: center;
   padding: 100px;
   background-color: #eeeeee;
+
+}
+.industry-text{
+  text-align: center;
 }
 .industry-heading {
   font-size: 38px;
   margin-bottom: 15px;
+}
+.industry-heading p{
   text-align: center;
 }
+.team-cards-section{
+  display: flex;
+  padding: 100px;
+  gap: 40px;
+  justify-content: space-evenly;
+}
+.team-cards{
+  border: 1px solid #fff;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.team-avatar{
+  width: 80px;
+  height: 80px;
+  /* padding-bottom: 30px; */
+}
+.team-cards-text{
+  padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* footer section */
+.footer-section{
+  padding: 100px 150px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+.footer-section a{
+  text-decoration: none;
+  color: #000;
+}
+.footer-section a:hover{
+  text-decoration: none;
+}
+.footer-section li{
+  list-style-type: none;
+  padding: 10px;
+  font-size: 15px;
+}
+.footer-section li{
+  list-style-type: none;
+  padding: 10px;
+  font-size: 15px;
+}
+.company-info{
+  gap: 30px;
+ 
+}
+.company-info-heading{
+  padding-bottom: 10px;
+  font-size: 18px;
+}
+.company-info-heading h3{
+  font-weight: 500;
+}
+.copyright{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 150px;
+  font-size: 14px;
+}
+.social-icons{
+  display: flex;
+  gap: 20px;
+}
+.footer-icons {
+  color: #34b3f1;
+}
+
+.contact-icon {
+  color: #34b3f1;
+  font-size: 16px;
+  padding-right: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
 
 /* media queries */
 @media (max-width: 380px) {
