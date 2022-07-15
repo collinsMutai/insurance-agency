@@ -1,8 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Montserrat&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;800&display=swap");
-:root{
-  font-size: ;
-}
+/* #252b42
+#23a6f0
+rgb(7, 7, 87)
+#b00cf4
+#fbfcfb */
 * {
   margin: 0;
   padding: 0;
@@ -190,11 +192,51 @@ h1 {
   padding-bottom: 20px;
 }
 
+/* partners section */
+.partners-section{
+  padding: 100px;
+  background-color: #eeeeee;
+}
+.partners{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.partner-logo img{
+  width: 60px;
+  height: 60px;
+}
 
-
-
-
-
+/* newsletter section */
+.newsletter-section{
+  display: flex;
+  gap: 30px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #eeeeee;
+  padding: 50px;
+}
+input {
+  outline: none;
+  border: none;
+  padding: 20px;
+  height: 50px;
+  width: 300px;
+}
+.subscribe-button{
+  width: 100px;
+  height: 50px;
+  background-color: #34b3f1;
+  color: #fff;
+  padding: 5px;
+  outline: none;
+  border: 2px solid #fff;
+  font-size: 15px;
+}
+.newsletter-heading{
+  font-size: 28px;
+  padding: 20px;
+}
 
 
 
