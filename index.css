@@ -122,10 +122,10 @@ li {
   margin-top: -400px;
 }
 .cards-first {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 200px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  padding: 5px;
+  padding: 10px;
   text-align: center;
 }
 .card-one {
@@ -150,6 +150,7 @@ li {
 .cards-middle {
   width: 250px;
   height: 250px;
+  text-align: center;
 }
 .blue-icon {
   color: #34b3f1;
@@ -223,8 +224,9 @@ li {
   gap: 30px;
   justify-content: space-evenly;
   align-items: center;
-  background-color: #eeeeee;
+  background-image: linear-gradient(to right, rgb(45, 45, 150), #f40c80);
   padding: 50px;
+  color: #fff;
 }
 input {
   outline: none;
@@ -359,7 +361,9 @@ input {
 
 .appointement-image img{
   width: 100%;
-  height: 100%;
+  height: 800px;
+  overflow: hidden;
+  object-fit: cover;
 }
 .appointement-image{
   flex: 1;
@@ -374,12 +378,26 @@ input {
   padding-bottom: 20px;
   text-transform: capitalize;
 }
+form{
+  height: 100%;
+}
 form input {
   background-color: #eeeeee;
   display: flex;
   flex-direction: column;
   width: 100%;
+  height: 60px;
   padding: 2px 5px;
+  margin-bottom: 50px;
+}
+
+form select {
+  background-color: #eeeeee;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60px;
+  padding: 20px 5px;
   margin-bottom: 50px;
 }
 .booking{
@@ -393,7 +411,29 @@ form input {
   font-size: 15px;
   margin-top: 40px;
 }
-
+/* contact us section */
+.contact-us-section{
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  margin-top: 50px;
+}
+.contact-us-button{
+  width: 200px;
+  height: 50px;
+  background-color: #34b3f1;
+  color: #fff;
+  padding: 5px;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  margin-top: 40px;
+}
+.contact-us-text h3{
+  padding-bottom: 30px;
+}
 
 /* footer section */
 .footer-section{
@@ -458,34 +498,7 @@ form input {
 
 
 /* media queries */
-@media (max-width: 380px) {
-  .hero-text {
-    padding: 15px 30px;
-  }
-  .hero-text h1 {
-    font-size: 40px;
-  }
-  .hero-text p {
-    font-size: 18px;
-    padding: 20px;
-  }
-  .hero-btn {
-    flex-direction: column;
-    align-items: center;
-    gap: 5px;
-  }
-  .heroBtnone {
-    width: 180px;
-    height: 60px;
-    padding: 5px;
-    font-size: 15px;
-    border-radius: 30px;
-  }
-  .heroBtntwo {
-    width: 180px;
-    height: 60px;
-    padding: 5px;
-    font-size: 15px;
-    margin-top: 15px;
-  }
+@media (max-width: 450px) {
+  .copy
+  
 }
